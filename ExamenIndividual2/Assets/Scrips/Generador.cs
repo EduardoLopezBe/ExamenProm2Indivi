@@ -18,15 +18,15 @@ public class Generador : MonoBehaviour
     }
     void Progression()
     {
-        totalTimer += Time.deltaTime;
+        totalTimer += Time.deltaTime; // si esto es mayor iugal 10 corre esto 
         if (totalTimer <= 10)
         {
-            if (collectionIndex != 0)
+            if (collectionIndex != 0) // es una variable no es cero
             {
-                index = 0;
+                index = 0;  //Variable
             }
             collectionIndex = 0;
-            enemies = enemyCollections[collectionIndex].Enemies;
+            enemies = enemyCollections[collectionIndex].Enemies;//enemies es igual al objeto del arreglo
         }
         else if (totalTimer <= 20)
         {

@@ -11,7 +11,7 @@ public class EnemigoNgro : VidaEnemy
             Life -= Damage;
             if (Life < 0)
             {
-                Destroy(gameObject);
+                Destroy(gameObject);   // Si el enemigo ngro se choca con la bala negra se destruye 
             }
         }
     }   

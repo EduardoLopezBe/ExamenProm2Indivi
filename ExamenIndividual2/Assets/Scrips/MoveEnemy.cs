@@ -1,21 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class MoveEnemy : MonoBehaviour
 {
-    GameObject player;
     public float speed = 5f;
-    private void Start()
-    {
-        player = GameObject.FindWithTag("Player");
-    }
     void Update()
     {
       
-        transform.position += -transform.up * speed * Time.deltaTime;
+        transform.position += -transform.up * speed * Time.deltaTime; // que se mueve hacia abajo en cierta velocidad 
     }
-
+                                                                      //TECNICO la posicion actual se iguala a una posicion nueva y hace que se mueva 
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Player"))

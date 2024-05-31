@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6961963665467487989}
   - component: {fileID: 1512026499941301902}
   - component: {fileID: 842256167425636613}
+  - component: {fileID: 532827454937922423}
   m_Layer: 0
   m_Name: Enemigo2
   m_TagString: Enemy
@@ -148,3 +149,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Life: 4
   Damage: 5
+--- !u!114 &532827454937922423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2864007934332758638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b054f05f7f83d334ab6538c5b6aa3fa3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5

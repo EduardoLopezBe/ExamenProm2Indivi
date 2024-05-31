@@ -5,5 +5,5 @@ using UnityEngine;
 public class VidaEnemy : MonoBehaviour
 {
     [SerializeField] protected int Life;
-    [SerializeField] protected int Damage;
+    [SerializeField] protected int Damage; 
 }
